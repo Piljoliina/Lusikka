@@ -66,21 +66,77 @@ a {
     align-items: center;
     column-gap: 10px;
 }
-/*tama on karry kuva*/
+/*tämä on kuvan se b*/
 .header-main-sm-fb {
     width: 30px;
     height: 30px;
-    background-image: url(../img/kärry.png);
+    background-image: url(../img/shopping-bag.png);
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
+.header-main-sm-fb:hover {
+    background-image: url(../img/shopping-bag-color.png);
+}
+
 /*tama on suurennuslasi*/
-.header-main-sm-in {
+/*.header-main-sm-in {
     width: 30px;
     height: 30px;
-    background-image: url(../img/suurennuslasi.png);
+    background-image: url(../img/search-removebg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.header-main-sm-in:hover {
+    background-image: url(../img/search-removebg-color.png);
+}
+*/
+
+/* 	;*/
+/* Tämä on search-bar css */
+.search{
+    width: 1px;
+    height: 1px;
+    padding: 16px;
+    background-image: url(../img/search-removebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+	display:inline-block; /*tekee pisteen älä koske*/
+
+
+}
+.search-bar{
+
+	position:absolute;
+	display:none;
+	right:0;
+	top: 20px;
+}
+
+/*muokkaa liikuvan search bar */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #0D2B1D;
+    border-radius: 8px; /* muuttaa pyöreän reunan*/
+    font-size: 12px;
+    outline:none;
+    padding: 6px 7px;
+    transition: width 0.4s ease-in-out;
+}
+
+form input[type="text"]:focus{
+	width:200px;
+	background-color: #eae0d5;
+}
+
+/*tämä on sen hover */
+.search:hover{
+	background-color: #6b8f71;
+	color:black;
+}
+.search:hover .search-bar{
+	display:block;
 }
