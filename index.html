@@ -11,42 +11,45 @@
         <link rel="icon" type="image/x-icon" href="img/spoon.png">
 </head>
 <body>
-        <nav id="nav-wrap">
-          <div class="logo-img">
-            <img src="img/logo_pieni.png" alt="logo">
-          </div>
-                <ul>
-                  <li>
-                    <div class="menu-icon-btn">
-                      <i class="fa fa-bars"></i>
-                    </div>
 
-                    <ul class="main-menu-container">
-                      <li><a href="#">Home</a>
-                      <li><a href="#">Section</a>
-                      <li><a href="#">Section</a>
-                      <li><a href="#">Section</a>
-                      <li><a href="#">Section</a>
-                      <li><a href="#">Section</a>
-                      </ul>
-                      </li>
+  <header class="header-main">
 
+      <!-- Tämä on searchbar -->
+     <!-- <li class="search">
+              <div class="search-bar">
+                      <form>
+                              <input type="text" name="search" placeholder="Search...">
+                      </form>
+              </div>
+      </li> -->
+      <div class="search-container">
+        <form action="/search" method="get">
+          <input class="search" id="searchleft" type="search" name="q" placeholder="Search">
+          <label class="button searchbutton" for="searchleft"><span class="mglass">&#9906;</span></label>
+        </form>
+      </div>
+      <!--searchbar loppuu-->
 
-                <div class="search-container">
-                  <div class="search-icon-btn">
-                    <i class="fa fa-search"></i>
-                  </div>
-                  <div class="search-input">
-                    <input type="search" class="search-bar" placeholder="Search...">
-                  </div>
-                </div>
-              </nav>
+    <div class="header-main-logo">
+            <img src="img/logo.png" width="159px" alt="logo">
+    </div>
+            <nav class="header-main-nav">
+                    <ul>
+                    <li><a href="#">Home<a></li>
+                    <li><a href="#">Clothing<a></li>
+                    <li><a href="#">Contact<a></li>
+                    <li><a href="#">Support<a></li>
+                    </ul>
+            </nav>
+    <!--fb = laukun kuva , in = suurennuslasin kuva-->
+    <div class="header-main-sm">
+      <div>
+      <a href="#"><div class="header-main-sm-fb"></div> </a>
+      <!--<a href="#"><div class="header-main-sm-in"></div> </a>-->
+      </div>
+    </div>
 
-
-
-
-
-
+</header>
 
 
 
@@ -76,6 +79,7 @@
         <span class="dot"></span> 
       </div>
 <script src="js/script.js"></script> 
+<!--slideshow loppuu-->
 
 <!--tarina osuus-->
 <div class="tausta">
@@ -106,5 +110,6 @@
   <br> <br> <br>
 </footer>
 <!--footer päättyy-->
+
 </body>
 </html>

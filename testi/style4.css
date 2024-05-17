@@ -35,96 +35,79 @@ header {
 
 
   /*navbar säätöä*/
-  .button {
-	display: inline-block;
-	margin: 4px 2px;
-	background-color: #444;
-	font-size: 14px;
-	padding-left: 32px;
-	padding-right: 32px;
-	height: 50px;
-	line-height: 50px;
-	text-align: center;
-	color: white;
-	text-decoration: none;
-	cursor: pointer;
-	-moz-user-select: none;
-	-khtml-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-} 
-
-.button:hover {
-	transition-duration: 0.4s;
-	-moz-transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;
-	background-color: white;
-	color: black;
+  .header-main{
+    width: 100%;
+    height: 100px;
+    background-color: #6b8f71;
+    display: flex;
+    justify-content: space-between;
 }
 
-.search-container {
-	position: relative;
-	display: inline-block;
-	margin: 4px 2px;
-	height: 50px;
-	width: 50px;
-	vertical-align: bottom;
+
+.header-main-logo {
+    width: fit-content;
+    height: 100px;
+    padding-left: 60px;
+    display: flex;
+}
+.header-main-logo img{
+    height: 100px;
+    align-self: center;
 }
 
-.mglass {
-	display: inline-block;
-	pointer-events: none;
-	-webkit-transform: rotate(-45deg);
-	-moz-transform: rotate(-45deg);
-	-o-transform: rotate(-45deg);
-	-ms-transform: rotate(-45deg);
+.header-main-nav {
+    width: fit-content;
+    height: 100px;
+
 }
 
-.searchbutton {
-	position: absolute;
-	font-size: 22px;
-	width: 100%;
-	margin: 0;
-	padding: 0;
+.header-main-nav ul{
+    list-style: none;
+    margin-left: 30px;
 }
 
-.search:focus + .searchbutton {
-	transition-duration: 0.4s;
-	-moz-transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;
-	background-color: white;
-	color: black;
+.header-main-nav ul li{
+    display: inline;
+    float: left;
+
 }
 
-.search {
-	position: absolute;
-	left: 49px; /* Button width-1px (Not 50px/100% because that will sometimes show a 1px line between the search box and button) */
-	background-color: white;
-	outline: none;
-	border: none;
-	padding: 0;
-	width: 0;
-	height: 100%;
-	z-index: 10;
-	transition-duration: 0.4s;
-	-moz-transition-duration: 0.4s;
-	-webkit-transition-duration: 0.4s;
-	-o-transition-duration: 0.4s;
+.header-main-nav ul li a{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 60px;
+    color: white;
+
+
 }
 
-.search:focus {
-	width: 363px; /* Bar width+1px */
-	padding: 0 16px 0 0;
+.header-main-nav ul li a:hover{
+    color: #eae0d5;
 }
 
-.expandright {
-	left: auto;
-	right: 49px; /* Button width-1px */
+.header-main-sm{
+    width: fit-content;
+    height: 100px;
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+/*tama on karry kuva*/
+.header-main-sm-fb {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/kärry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.expandright:focus {
-	padding: 0 0 0 16px;
+/*tama on suurennuslasi*/
+.header-main-sm-in {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/suurennuslasi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style5.css">
+
+        <title>la cuillère</title>
+        <link rel="icon" type="image/x-icon" href="img/spoon.png">
+</head>
+<body>
+        <header class="header-main">
+                <div class="header-main-logo">
+                        <img src="img/logo_pieni.png" alt="logo">
+                        <nav class="header-main-nav">
+                                <ul>
+                                <li><a href="#">Home<a></li>
+                                <li><a href="#">Clothing<a></li>
+                                <li><a href="#">Contact<a></li>
+                                <li><a href="#">Support<a></li>
+                                </ul>
+                        </nav>
+                </div>
+                <!--fb = laukun kuva , in = suurennuslasin kuva-->
+                <div class="header-main-sm">
+                        <a href="#"><div class="header-main-sm-fb"></div> </a>
+                        <!--<a href="#"><div class="header-main-sm-in"></div> </a>-->
+                        
+                        <!-- Tämä on search divi kasa-->
+                        <li class="search">
+                                <div class="search-bar">
+                                        <form>
+                                                <input type="text" name="search" placeholder="Search...">
+                                        </form>
+                                </div>
+                        </li> 
+                        <!--search div kasa loppuu-->
+                </div>
+        </header>
+
+<!--kuva slideshow-->
+
+<div class="slideshow-container">
+
+
+        <!--kuva slideshow-->
+        <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="img/arcanescenery1.jpg" style="width:100%">
+                        <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="img/arcanescenery2.jpg" style="width:100%">
+                        <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="img/arcanescenery3.jpg" style="width:100%">
+                        <div class="text">Caption Three</div>
+                </div>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                        <span class="dot"></span> 
+                </div>
+        <div class="mySlides fade">
+          <img src="img/arcanescenery1.jpg" style="width:100%">
+        </div>
+        <!--slideshow loppuu-->
+
+
+
+        <div class="mySlides fade">
+          <img src="img/arcanescenery2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/arcanescenery3.jpg" style="width:100%">
+        </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+        </div>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+.search{
+    width: 1px;
+    height: 1px;
+    padding: 30px;
+    background-image: url(../img/search-removebg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	display:inline-block; /*tekee pisteen älä koske*/
+}
+.search-bar{
+	position:absolute;
+	display:none;
+	right: 0;
+	top: 20px;
+}
+
+/*muokkaa liikuvan search bar */
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid #0D2B1D;
+    border-radius: 8px; /* muuttaa pyöreän reunan*/
+    font-size: 12px;
+    outline:none;
+    padding: 6px 7px;
+    transition: width 0.4s ease-in-out;
+}
+form input[type="text"]:focus{
+	width:200px;
+	background-color: #eae0d5;
+}
+/*tämä on sen hover */
+.search:hover{
+	background-color: #6b8f71;
+	color:black;
+}
+.search:hover .search-bar{
+	display:block;}
+
+
