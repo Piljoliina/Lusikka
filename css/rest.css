@@ -51,3 +51,14 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
   }
+
+  /* Clothing panels */
+
+.rivit {
+  float: left;
+  width: 25%;
+  padding: 100px;
+  border: 20px solid #6b8f71;
+}
+
+ /* End of clohing panels */
