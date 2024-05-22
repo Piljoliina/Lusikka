@@ -3,7 +3,9 @@
     padding:0;
 }
 
-
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .logo-img {
     display: block;
@@ -74,19 +76,8 @@
 .header-main-sm-fb:hover {
     background-image: url(../img/shopping-bag-color.png);
 }
-/*tama on suurennuslasi*/
-/*.header-main-sm-in {
-    width: 30px;
-    height: 30px;
-    background-image: url(../img/search-removebg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.header-main-sm-in:hover {
-    background-image: url(../img/search-removebg-color.png);
-}
-*/
-/* 	;*/
+
+
 /* Tämä on search-bar css */
 
 .button {
@@ -269,30 +260,92 @@ footer {
     padding-top: 10px;
 }
 
+/*tarina*/
+
 .tausta {
     background-color: #6b8f71;
-    padding: 200px;
+    padding: 150px;
     position: relative;
     bottom: 50px;
 }
 
 .tekstitausta {
     background-color: #eae0d5;
-    width: 30%;
+    width: 40%;
     border-radius: 2px;
    /* border: 1px solid #0c0c0c; */
-    padding: 100px;
-    position: absolute;
-    top: 85px;
+    padding: 50px;
+    position: relative;
+    top: 0px;
     box-shadow: 0 4px 8px 0 #eae0d5, 0 6px 20px 0 #eae0d5;
     
 }
 
 .jinx-kuva {
     position: absolute;
-    top: 75px;
-    left: 1100px;
+    top: 65px;
+    left: 900px;
 }
 
 
 /*tuki-sivun css*/
+
+.ylä-laatikko {
+
+    padding: 40px;
+    position: relative;
+    border: 1px solid #0d2b1d;
+    background-color: #0d2b1d;
+    color: white;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+.box-left {
+    text-align: center;
+    top: 290px;
+    padding: 300px;
+    bottom: 300px;
+    position: absolute;
+    border: 1px solid #0d2b1d;
+    background-color: #6b8f71;
+    width: 30%;
+    left: 10px;
+    box-sizing: border-box;
+    
+}
+
+.box-1 {
+    
+    top: 60px;
+    padding: 200px;
+    bottom: 300px;
+    float: right;
+    position: relative;
+    text-align: center;
+    border: 1px solid #0d2b1d;
+    background-color: #6b8f71;
+    width: 30%;
+    right: 10px;
+    box-sizing: border-box;
+    
+}
+
+.box-2 {
+    position: relative;
+    text-align: center;
+    padding: 200px;
+    width: 30%;
+    top: 60px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    border: 1px solid #0d2b1d;
+    background-color: #6b8f71;
+}
