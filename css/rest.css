@@ -8,7 +8,7 @@ h3 {
 }
 
 
-
+/* Haku bar  */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -33,10 +33,14 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #6b8f71;
   }
-  
+
+  /* Haku bar end */
+
+
+  /* oikea kirjoitus osio*/
   .container {
     box-shadow: 0 4px 8px 0 #0d2b1d, 0 6px 20px 0 #0d2b1d;
-    position: sticky;
+    position: relative;
     float: right;
     width: 30%;
     border-radius: 10px;
@@ -44,20 +48,23 @@ input[type=text], select, textarea {
     background-color: #6b8f71;
     padding: 100px;
     margin-right: 125px;
-    margin-top: 25px;
+    margin-top: 15px;
     font-family: 'Courier New', Courier, monospace;
+    bottom: 200px;
 
   }
 
   body {
     background-color: #eae0d5;
 }
+    /* Pitkä alla oleva osio*/
+    
   .information_support {
-    top: 300px;
+    top: 200px;
     left: -1px;
     width: 100%;
     padding: 50px;
-    position: fixed;
+    position: relative;
     border: 1px solid black;
     background-color:  #0d2b1d;
     color:  #eae0d5;
@@ -66,10 +73,16 @@ input[type=text], select, textarea {
     margin-top: 25px;
     margin-bottom: 16px;
     font-family: 'Courier New', Courier, monospace;
-   
-    
-  
+
   }
+
+/* kukka kuva sivulla*/
+.kukkakuva {
+margin-top: 350px;
+margin-left: 25px;
+
+}
+/*loppu*/
 
   /* Clothing panels */
 
@@ -79,7 +92,7 @@ input[type=text], select, textarea {
   padding: 100px;
   border: 35px solid #0D2B1D;
   margin-top: 25px;
-  margin-bottom: 25px;
+  margin-bottom: 125px;
 
 }
 

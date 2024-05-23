@@ -40,6 +40,7 @@ h1 {
     height: 100px;
     align-items: center;
 }
+/* tämä on nav teksti*/
 .header-main-nav ul{
     list-style: none;
     margin-left: 30px;
@@ -55,8 +56,9 @@ h1 {
     color: white;
 }
 .header-main-nav ul li a:hover{
-    color: #eae0d5;
+    color: #0d2b1d;
 }
+/* loppuu */
 .header-main-sm{
     width: fit-content;
     height: 100px;
@@ -83,7 +85,7 @@ h1 {
 .button {
 	display: inline-block;
 	margin: 4px 2px;
-	background-color: #0d2b1d;
+	background-color: #6b8f71;
 	font-size: 14px;
 	padding-left: 32px;
 	padding-right: 32px;
@@ -105,8 +107,8 @@ h1 {
 	-moz-transition-duration: 0.4s;
 	-webkit-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
-	background-color: white;
-	color: black;
+	background-color: #0d2b1d;
+	color: #fff;
 }
 
 .search-container {
@@ -233,6 +235,7 @@ footer {
     padding: 3px;
     background-color: #6b8f71;
     color: white;
+
   }
 
 .footer-element1 {
@@ -263,7 +266,7 @@ footer {
 /*tarina*/
 
 .tausta {
-    background-color: #6b8f71;
+    background-color: #0d2b1d;
     padding: 150px;
     position: relative;
     bottom: 50px;
@@ -307,10 +310,10 @@ footer {
 }
 
 .box-left {
-    text-align: center;
+    text-align: left;
     top: 290px;
-    padding: 300px;
-    bottom: 300px;
+    padding: 100px;
+    bottom: 100px;
     position: absolute;
     border: 1px solid #0d2b1d;
     background-color: #6b8f71;
@@ -322,16 +325,12 @@ footer {
 
 .box-1 {
     
-    top: 60px;
-    padding: 200px;
-    bottom: 300px;
     float: right;
+    top: 80px;
     position: relative;
     text-align: center;
-    border: 1px solid #0d2b1d;
-    background-color: #6b8f71;
     width: 30%;
-    right: 10px;
+    right: 80px;
     box-sizing: border-box;
     
 }
@@ -339,7 +338,7 @@ footer {
 .box-2 {
     position: relative;
     text-align: center;
-    padding: 200px;
+    padding: 180px;
     width: 30%;
     top: 60px;
     left:0;
